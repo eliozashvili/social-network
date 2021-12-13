@@ -1,0 +1,14 @@
+.textarea {
+    resize: none;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(242, 242, 242);
+}
+
+.btnPost {
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+}

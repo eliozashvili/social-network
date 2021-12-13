@@ -1,0 +1,23 @@
+.navigation {
+    grid-area: n;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.item:hover {
+    transition: 0.3s ease-out;
+    color: rgb(222, 222, 222);
+}
+
+.item a {
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+}
+.item {
+    padding-bottom: 10px;
+}
+
+.item a.activeLink {
+    color: rgb(222, 222, 222);
+}

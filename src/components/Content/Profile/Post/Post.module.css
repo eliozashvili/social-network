@@ -1,0 +1,32 @@
+.post {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(40, 40, 40);
+}
+
+.post img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.postMessage {
+    position: relative;
+    top: -60px;
+    left: 80px;
+    width: 500px;
+    height: 70px;
+    overflow-y: auto;
+}
+
+.likesBlock {
+    width: 50px;
+    margin-top: -50px;
+}
+
+.likesCount {
+    position: relative;
+    top: -5px;
+    left: 5px;
+}

@@ -1,0 +1,11 @@
+.header {
+    grid-area: h;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(99, 99, 99);
+    letter-spacing: 5px;
+}

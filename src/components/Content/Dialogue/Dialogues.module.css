@@ -1,0 +1,42 @@
+.dialogues {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    margin: 100px;
+}
+
+.dialogue a {
+    display: block;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+    width: 200px;
+}
+
+.dialogue a.activeLink {
+    background-color: rgb(217, 248, 252);
+    border-radius: 9px;
+    transition: 0.5s ease-in-out;
+}
+
+.dialogue:hover,
+.message:hover {
+    border-color: black;
+    transition: 0.5s;
+}
+
+.message,
+.dialogue:not(a) {
+    color: rgb(40, 40, 40);
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    width: 200px;
+}
+.message {
+    margin-left: 200px;
+    width: 400px;
+    height: 100px;
+    overflow-y: hidden;
+    font-size: 1.5rem;
+}
