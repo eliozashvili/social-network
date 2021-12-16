@@ -4,21 +4,21 @@ import classes from './Nav.module.css';
 const Navigation = () => {
     return (
         <nav className={classes.navigation}>
-            <ul type="none">
+            <ul type='none'>
                 <li className={classes.item}>
                     <NavLink
-                        to="/profile"
-                        className={(navData) =>
+                        to='/profile'
+                        className={navData =>
                             navData.isActive ? classes.activeLink : classes.item
                         }
                     >
-                        My Profile
+                        Profile
                     </NavLink>
                 </li>
                 <li className={classes.item}>
                     <NavLink
-                        to="/dialogue"
-                        className={(navData) =>
+                        to='/dialogue'
+                        className={navData =>
                             navData.isActive ? classes.activeLink : classes.item
                         }
                     >
@@ -27,8 +27,8 @@ const Navigation = () => {
                 </li>
                 <li className={classes.item}>
                     <NavLink
-                        to="/news"
-                        className={(navData) =>
+                        to='/news'
+                        className={navData =>
                             navData.isActive ? classes.activeLink : classes.item
                         }
                     >
@@ -37,8 +37,8 @@ const Navigation = () => {
                 </li>
                 <li className={classes.item}>
                     <NavLink
-                        to="/music"
-                        className={(navData) =>
+                        to='/music'
+                        className={navData =>
                             navData.isActive ? classes.activeLink : classes.item
                         }
                     >
@@ -47,8 +47,8 @@ const Navigation = () => {
                 </li>
                 <li className={classes.item}>
                     <NavLink
-                        to="/settings"
-                        className={(navData) =>
+                        to='/settings'
+                        className={navData =>
                             navData.isActive ? classes.activeLink : classes.item
                         }
                     >

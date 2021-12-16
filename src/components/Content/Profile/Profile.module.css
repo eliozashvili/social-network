@@ -1,8 +1,9 @@
 .profile {
     grid-area: c;
+    margin-left: 25px;
 }
 
 .image {
-    width: 100%;
+    width: 600px;
     height: 175px;
 }
