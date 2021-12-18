@@ -2,6 +2,7 @@
     display: grid;
     position: relative;
     left: 25px;
+    top: 75px;
     grid-template-columns: 3fr 10fr;
     font-family: 'PT Sans', sans-serif;
     font-size: 2rem;
