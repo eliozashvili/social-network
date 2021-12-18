@@ -1,9 +1,8 @@
-import { messageInPost } from './../../../../index';
 import Post from './Post/Post';
 import classes from './Wall.module.css';
 
-const Wall = () => {
-    const postElements = messageInPost.map(postArg => (
+const Wall = props => {
+    const postElements = props.messageInPost.map(postArg => (
         <Post
             key={postArg.id}
             message={postArg.postMessage}

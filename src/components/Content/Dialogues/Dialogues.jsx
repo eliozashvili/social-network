@@ -1,14 +1,13 @@
 import classes from './Dialogues.module.css';
 import Dialogue from './Dialogue/Dialogue';
 import Message from './Messages/Messages';
-import { messageData, dialogueData } from './../../../index';
 
 const Dialogues = props => {
-    const dialogueElements = dialogueData.map(dialogue => (
+    const dialogueElements = props.dialogueData.map(dialogue => (
         <Dialogue key={dialogue.id} id={dialogue.id} name={dialogue.name} />
     ));
 
-    const messageElements = messageData.map(msg => (
+    const messageElements = props.messageData.map(msg => (
         <Message key={msg.id} message={msg.message} />
     ));
 
