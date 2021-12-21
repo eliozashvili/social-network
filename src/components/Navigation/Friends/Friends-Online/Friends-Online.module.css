@@ -1,0 +1,31 @@
+.wrapper {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 85px;
+    position: relative;
+    right: 40px;
+}
+
+.onlineFriends {
+    grid-area: n;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(140, 140, 140);
+    display: block;
+}
+
+.onlineFriends:hover {
+    transition: 0.3s ease-out;
+    color: rgb(222, 222, 222);
+}
+
+.friendsProfilePicture {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}

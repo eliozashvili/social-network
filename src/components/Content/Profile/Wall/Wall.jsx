@@ -1,5 +1,6 @@
 import Post from './Post/Post';
 import classes from './Wall.module.css';
+import React from 'react';
 
 const Wall = props => {
     const postElements = props.posts.map(postArg => (
@@ -9,15 +10,25 @@ const Wall = props => {
             likesCount={postArg.likesCount}
         />
     ));
+    // Creates reference to element
+    const newPostElement = React.createRef();
+
+    const addPost = () => {
+        const postText = newPostElement.current.value;
+        alert(postText);
+    };
 
     return (
         <div>
             <textarea
+                ref={newPostElement}
                 className={classes.textarea}
                 placeholder="What's on your mind?"
             ></textarea>
             <br></br>
-            <button className={classes.btnPost}>Post</button>
+            <button onClick={addPost} className={classes.btnPost}>
+                Post
+            </button>
 
             {postElements}
         </div>
