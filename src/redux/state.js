@@ -37,6 +37,16 @@ let state = {
             { id: 1, message: "Let's drink :P" },
             { id: 2, message: 'Meow?' }
         ]
+    },
+
+    friends: {
+        myFriends: [],
+
+        friendsOnline: [
+            { id: 0, name: 'George. E' },
+            { id: 1, name: 'Anna. E' },
+            { id: 2, name: 'Illidan. M' }
+        ]
     }
 };
 

@@ -7,3 +7,23 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 2rem;
 }
+
+.newMessage {
+    grid-area: c;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 420px;
+}
+
+.msgTxtarea {
+    resize: none;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+}
+
+.sendBtn {
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}

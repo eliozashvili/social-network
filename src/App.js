@@ -10,7 +10,7 @@ const App = props => {
 		<BrowserRouter>
 			<div className="main-wrapper">
 				<Header />
-				<Navigation />
+				<Navigation friends={props.state.friends} />
 				<div className="content">
 					<Routes>
 						<Route path='/profile' element={<Profile profile={props.state.profilePage} />} />
